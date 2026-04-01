@@ -1,0 +1,92 @@
+body {
+    background: url("assests/background.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.login-card {
+    width: 400px;
+    border-radius: 12px;
+    background: #c7969661;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    color: white;
+    margin: 20px auto; 
+    height: auto; 
+    padding: 20px; 
+}
+
+
+.login-card .mb-3, .login-card .mb-2 {
+    margin-bottom: 8px !important; 
+}
+
+.login-card label {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.btn{
+    margin-bottom: 5px;
+    border-color: white;
+    
+    
+}
+
+.btn:hover {
+    border-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    background-color: #B35656;
+}
+
+.login-card:hover{
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    
+}
+
+.navbar{
+    background-color: #b35656;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color: white;
+}
+.myBtn{
+    width: 100px;
+    background-color: #b35656;
+
+    
+}
+.myBtn:hover{
+    width: 100px;
+    
+}
+.swal2-confirm{
+    background-color: #B35656;
+}
+.swal2-confirm:hover{
+    background-color: #B35656;
+}
+.bgImg{
+    width: 50px;
+    height: 50px;
+}
+.bgImg:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.selectedImg{
+    border: 2px solid #B35656;
+    border-radius: 5px;
+}
+.card-body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 150px;
+}
