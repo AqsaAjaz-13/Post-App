@@ -1,12 +1,18 @@
 body {
     background: url("assests/background.jpg") ;
     background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+    background-size: cover; 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
 }
 
-
+.container-fluid{
+overflow: hidden;
+}
 
 .login-card {
     width: 400px;
@@ -16,9 +22,9 @@ body {
     color: white;
     margin: 20px auto; 
     height: auto; 
-    padding: 20px; 
+    padding: 20px;
+    
 }
-
 
 .login-card .mb-3, .login-card .mb-2 {
     margin-bottom: 8px !important; 
@@ -84,9 +90,54 @@ body {
     border: 2px solid #B35656;
     border-radius: 5px;
 }
+
+.card{
+    border: 2px solid  #B35656;
+}
 .card-body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 150px;
+}
+
+/* .color-box {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #ccc;
+} */
+
+/* .selectedColor {
+    border: 3px solid #7a4a4a;
+    transform: scale(1.1);
+} */
+
+/* Color circles styling */
+.color-box {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    transition: 0.2s;
+}
+
+/* Hover effect */
+.color-box:hover {
+    transform: scale(1.2);
+}
+
+/* Highlight for the selected color */
+.selectedColor {
+    border: 2px solid #555;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+/* Button style to match your theme */
+.btn-custom {
+    background-color: #a66565;
+    color: white;
+    padding: 5px 20px;
 }
